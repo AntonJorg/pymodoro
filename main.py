@@ -48,7 +48,7 @@ class Pomodoro:
         
         n = notify2.Notification("Work",
                                  f"{self.worktime} minutes until {d}",
-                                 os.path.join(os.getcwd(), "work.png")  # Icon name
+                                 os.path.join(os.getcwd(), "img/work.png")  # Icon name
                                  )
         n.show()
     
@@ -60,7 +60,7 @@ class Pomodoro:
         
         n = notify2.Notification("Break",
                                  f"{self.breaktime} minutes until {d}",
-                                 os.path.join(os.getcwd(), "break.png")  # Icon name
+                                 os.path.join(os.getcwd(), "img/break.png")  # Icon name
                                  )
         n.show()
 
